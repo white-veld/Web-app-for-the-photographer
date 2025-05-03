@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    background-color: rgb(125 81 45 / 67%);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;  /* Центрирование по горизонтали */
+    align-items: center;      /* Центрирование по вертикали */
+    gap: 40px;               /* Расстояние между лого и меню */
+    padding: 30px 0;         /* Отступы сверху и снизу */
+    margin: 0 auto;          /* Автоматические отступы по бокам */
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;         /* Убираем маркеры списка */
+    gap: clamp(20px, 2vw, 40px);;               /* Расстояние между пунктами меню */
+    margin: 0;               /* Убираем отступы у ul */
+    padding: 0;              /* Убираем отступы у ul */
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+}
+
+.photo-on-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-about-me {
+    padding-bottom: 1%;
+}
+
+.main-about-me p {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.info-about-experience {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 30px 20px;
+    text-align: center;
+}
+
+.info-about-experience p {
+    color: #000000;
+    font-size: 16px;
+}
+
+.certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+
+.certificate img {
+    width: 100%;
+    max-width: 800px;
+}
