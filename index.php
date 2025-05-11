@@ -33,9 +33,23 @@
     <div class="info-about-experience">
         <p>Текст об опыте</p>
     </div>
-    <script src="/js/resize.js"></script>
+    <script src="/js/resize_image.js"></script>
     <div class="certificate">
         <img src="img/certificate.png">
     </div>
+    <script src="/js/open_window.js"></script>
+    <script src="/js/close_window.js"></script>
+    <button class="contact-btn" onclick=getWindow()>
+        <img src="img/chat.png">
+    </button>
+    <dialog id="contacts">
+        <div class="dialog-content">
+            <p>Фото</p>
+            <p>Текст</p>
+            <p>Тг</p>
+            <p>Вк</p>
+            <p>Ватсап</p>
+        <div>
+    </dialog>
 </body>
 </html>

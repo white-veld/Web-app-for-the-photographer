@@ -84,3 +84,30 @@ header nav ul li a {
     width: 100%;
     max-width: 800px;
 }
+
+.contact-btn {
+    cursor: pointer;
+    position: fixed;
+	bottom: 1%;
+    right: 20px;
+    background: none;
+    border: none;
+}
+
+.contact-btn img {
+    width: 50px;
+}
+
+dialog[open] {
+    display: block;
+}
+
+dialog {
+    margin: auto;
+    border: none;
+    padding: 30px;
+}
+
+#contacts::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
