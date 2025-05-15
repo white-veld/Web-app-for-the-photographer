@@ -17,11 +17,11 @@ a {
 
 header {
     display: flex;
-    justify-content: center;  /* Центрирование по горизонтали */
-    align-items: center;      /* Центрирование по вертикали */
-    gap: 40px;               /* Расстояние между лого и меню */
-    padding: 30px 0;         /* Отступы сверху и снизу */
-    margin: 0 auto;          /* Автоматические отступы по бокам */
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 0;
+    margin: 0 auto;
     font-weight: 500;
     font-style: italic;
     font-size: 20px;
@@ -30,10 +30,8 @@ header {
 
 header nav ul {
     display: flex;
-    list-style: none;         /* Убираем маркеры списка */
-    gap: clamp(20px, 2vw, 40px);;               /* Расстояние между пунктами меню */
-    margin: 0;               /* Убираем отступы у ul */
-    padding: 0;              /* Убираем отступы у ul */
+    list-style: none;
+    gap: clamp(20px, 2vw, 40px);
 }
 
 header nav ul li {
@@ -110,4 +108,34 @@ dialog {
 
 #contacts::backdrop {
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.recommendations {
+    margin: 0px 60px;
+    font-style: italic;
+}
+
+.greeting {
+    padding: 20px 0px;
+}
+
+.rule-1 {
+    padding: 20px 0px;
+}
+
+.rule-2 {
+    padding-bottom: 20px;
+}
+
+.rule-2 ul {
+    margin: 0px 60px;
+}
+
+.recommendations-for-family {
+    padding: 20px 0px; 
+}
+
+.final-recommendations {
+    margin: 0px 20px;
+    padding-bottom: 20px;
 }
