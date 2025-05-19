@@ -6,7 +6,7 @@
             <li><a href="#">Портфолио</a></li>
             <li><a href="/recommendations.php">Рекомендации</a></li>
             <li><a href="#">Услуги</a></li>
-            <li><a href="#">Запись</a></li>
+            <li><a href="/appointment.php">Запись</a></li>
             <li><a href="#">Отзывы</a></li>
         </ul>
     </nav>
