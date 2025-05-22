@@ -139,3 +139,25 @@ dialog {
     margin: 0px 20px;
     padding-bottom: 20px;
 }
+
+#rules-appointment {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#rules-appointment p {
+    font-family: Google Sans;
+    font-size:14px;
+    font-weight:500;
+    background-color: #FFFFFF;
+    max-width: 500px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#appointment {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
